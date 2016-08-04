@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Form</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+
+</head>
+
+
+    <header>
+        <h1>Timeline: Task Helper</h1>
+    </header>
+<!--
+    <ul>
+        <li><a href="index.html" class="active">Create</a></li>
+        <li><a href="form-register.html">Manage</a></li>
+        <li><a href="form-login.html">View</a></li>
+    </ul>
+-->
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+
+        <form class="form-basic" method="post" action="#">
+
+            <div class="form-title-row">
+                <h1>Cadastro de Tarefas</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Quem:</span>
+                    <select name="dropdown">
+                        <option>Marcelo Milani</option>
+                        <option>Alba Oliveira</option>
+                        <option>Renato Aumiller</option>
+                        <option>Data Scientist</option>
+                        <option>Eduardo Bortolotti</option>
+                        <option>Eduardo</option>
+                        <option>Egon</option>                        
+                    </select>
+                </label>
+            </div>
+
+
+            <div class="form-row">
+                <label>
+                    <span>Nome da tarefa:</span>
+                    <input type="text" name="who">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Data inicio:</span>
+                    <input type="date" name="who">
+                </label>
+            </div>
+
+             <div class="form-row">
+                <label>
+                    <span>Data fim:</span>
+                    <input type="date" name="who">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
